@@ -14,3 +14,4 @@ Source code for the Joshua and Kambrie wedding website
 - [ ] Terminal plug (JS)
 - [ ] Alternate Donations (JS)
 - [ ] Beautify Landing Page (TBD)
+- [ ] Create a page for our colors? (KB)
