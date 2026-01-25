@@ -4,6 +4,7 @@ Source code for the Joshua and Kambrie wedding website
 
 
 # TODO:
+- [ ] Setup to open with github pages (JS, KB)
 - [ ] Picture background (KB)
 - [ ] Our Story (KB)
 - [ ] Gallery (KB)
