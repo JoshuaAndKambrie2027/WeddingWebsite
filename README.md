@@ -4,13 +4,13 @@ Source code for the Joshua and Kambrie wedding website
 
 
 # TODO:
-- [ ] Setup to open with github pages (JS, KB)
+- [x] Setup to open with github pages (JS, KB)
 - [ ] Picture background (KB)
 - [ ] Our Story (KB)
 - [ ] Gallery (KB)
 - [ ] Event Info (KB)
 - [ ] Wedding Party (KB)
-- [ ] About the area (JS)
+- [x] About the area (JS)
 - [ ] Registry (JS)
 - [ ] Terminal plug (JS)
 - [ ] Alternate Donations (JS)
