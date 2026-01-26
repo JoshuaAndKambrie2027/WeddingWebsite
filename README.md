@@ -11,7 +11,7 @@ Source code for the Joshua and Kambrie wedding website
 - [ ] Event Info (KB)
 - [ ] Wedding Party (KB)
 - [x] About the area (JS)
-- [ ] Registry (JS)
+- [x] Registry (JS)
 - [x] Terminal plug (JS)
 - [ ] Alternate Donations (JS)
 - [ ] Beautify Landing Page (TBD)
