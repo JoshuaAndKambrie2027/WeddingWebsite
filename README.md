@@ -12,7 +12,7 @@ Source code for the Joshua and Kambrie wedding website
 - [ ] Wedding Party (KB)
 - [x] About the area (JS)
 - [ ] Registry (JS)
-- [ ] Terminal plug (JS)
+- [x] Terminal plug (JS)
 - [ ] Alternate Donations (JS)
 - [ ] Beautify Landing Page (TBD)
 - [ ] Create a page for our colors? (KB)

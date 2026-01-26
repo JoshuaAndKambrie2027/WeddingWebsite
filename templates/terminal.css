@@ -1,0 +1,40 @@
+/* Full-page height for proper background coverage */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.banner {
+  background: url("../media/Terminal/terminal.jpeg") no-repeat center center;
+  background-size: cover; /* Ensures the image covers the full width and height */
+  height: 60vh; /* Adjust height as needed (vh means viewport height) */
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  position: relative; /* Needed for positioning content within the banner */
+  width: 100%;
+}
+
+/* Terminal-shop square logo fills rest of background */
+body {
+  background: url("../media/Terminal/terminal-logo.jpg") center / cover
+    no-repeat fixed;
+  background-color: black; /* fallback */
+}
+
+/* Card content sits above backgrounds */
+.terminal-card {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: dim background behind card slightly for readability */
+.terminal-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: inherit;
+  z-index: -1;
+}
