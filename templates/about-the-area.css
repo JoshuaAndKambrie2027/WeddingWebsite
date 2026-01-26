@@ -1,6 +1,6 @@
 :root {
-  --primary: #2f5d62; /* mountain green */
-  --secondary: #f4a261; /* warm accent */
+  --primary: #215D6E; /* mountain green */
+  --secondary: #8D4004; /* warm accent */
   --background: #f7f9fb;
   --text: #2b2b2b;
   --card: #ffffff;
@@ -54,7 +54,7 @@ header {
 }
 
 .section-header-bg-color {
-  background-color: #f1f1f1; /* Your specific color code */
+  background-color: #f1f1f1; 
 }
 
 header h1 {
@@ -121,7 +121,7 @@ section h2 {
 }
 
 footer {
-  background: #1f3c40;
+  background: #215D6E;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -131,6 +131,11 @@ footer {
 footer p {
   margin: 0.3rem 0;
 }
+
+a {
+  text-decoration: none;
+}
+
 
 @media (max-width: 600px) {
   header h1 {
