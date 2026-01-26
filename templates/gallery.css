@@ -1,0 +1,60 @@
+/* style.css */
+
+body {
+  background-color: #fdf7f0; /* light neutral background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.gallery-header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  color: #215D6E; /* Dark Teal Blue */
+}
+
+.gallery-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #8D4004; /* Rust */
+}
+
+.gallery-header p {
+  font-size: 1.2rem;
+  color: #215D6E;
+}
+
+/* Photo Cards */
+.photo-card {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Footer or caption overlay */
+.photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(33, 93, 110, 0.7); /* Dark Teal Blue with opacity */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.photo-card:hover .photo-caption {
+  background: rgba(141, 64, 4, 0.8); /* Rust on hover */
+}
