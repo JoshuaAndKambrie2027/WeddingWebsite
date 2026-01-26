@@ -5,7 +5,7 @@ Source code for the Joshua and Kambrie wedding website
 
 # TODO:
 - [x] Setup to open with github pages (JS, KB)
-- [ ] Picture background (KB)
+- [x] Picture background (KB)
 - [ ] Our Story (KB)
 - [ ] Gallery (KB)
 - [ ] Event Info (KB)
@@ -14,5 +14,5 @@ Source code for the Joshua and Kambrie wedding website
 - [x] Registry (JS)
 - [x] Terminal plug (JS)
 - [ ] Alternate Donations (JS)
-- [ ] Beautify Landing Page (TBD)
+- [x] Beautify Landing Page (TBD)
 - [ ] Create a page for our colors? (KB)

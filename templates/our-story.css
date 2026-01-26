@@ -1,0 +1,156 @@
+:root {
+  --primary: #215D6E;   /* Deep teal */
+  --secondary: #8D4004; /* Warm accent */
+  --background: #f7f7f7;
+  --text: #2b2b2b;
+  --card: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--background);
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+              url('https://images.unsplash.com/photo-1508264165352-258a6c17f36c');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.story-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 4rem auto;
+  align-items: center;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.story-section img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.story-section:nth-child(even) {
+  direction: rtl; 
+  text-align: center;
+}
+.story-section:nth-child(even) img {
+  direction: ltr;
+  text-align: center;
+}
+.story-section div {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+.story-section h2 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.story-section p {
+  color: var(--text);
+}
+
+.team {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+.team h2 {
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+}
+.team-member img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: 3px solid var(--secondary);
+}
+.team-member h4 {
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+.team-member p {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.cta {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--primary);
+  color: white;
+}
+.cta h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.cta a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: var(--secondary);
+  color: white;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  margin-top: 1rem;
+}
+.cta a:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 900px) {
+  .story-section {
+    grid-template-columns: 1fr;
+  }
+  .story-section:nth-child(even) {
+    direction: ltr;
+  }
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
