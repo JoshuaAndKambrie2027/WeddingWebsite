@@ -13,6 +13,6 @@ Source code for the Joshua and Kambrie wedding website
 - [x] About the area (JS)
 - [x] Registry (JS)
 - [x] Terminal plug (JS)
-- [ ] Alternate Donations (JS)
 - [x] Beautify Landing Page (TBD)
+- [x] Alternate Donations (JS)
 - [ ] Create a page for our colors? (KB)
